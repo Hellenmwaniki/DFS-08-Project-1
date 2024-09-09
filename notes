@@ -1,0 +1,38 @@
+Important Columns 
+  0   Event.Id                88889 non-null  object 
+ 1   Investigation.Type      88889 non-null  object 
+ 2   Accident.Number         88889 non-null  object #Necessary 
+ 3   Event.Date              88889 non-null  object # Necessary
+ 4   Location                88837 non-null  object # Necessary 
+ 5   Country                 88663 non-null  object # Necessary
+ 6   Latitude                34382 non-null  object # Necessary #what latitude was the plane flying on?
+ 7   Longitude               34373 non-null  object 
+ 8   Airport.Code            50132 non-null  object # Possible Secondary  Key 
+ 9   Airport.Name            52704 non-null  object # Necessary
+ 10  Injury.Severity         87889 non-null  object 
+ 11  Aircraft.damage         85695 non-null  object 
+ 12  Aircraft.Category       32287 non-null  object # Necessary
+ 13  Registration.Number     87507 non-null  object # Possible Primary Key 
+ 14  Make                    88826 non-null  object # Necessary
+ 15  Model                   88797 non-null  object # Necessary
+ 16  Amateur.Built           88787 non-null  object 
+ 17  Number.of.Engines       82805 non-null  float64
+ 18  Engine.Type             81793 non-null  object - 
+ 19  FAR.Description         32023 non-null  object 
+...
+ 29  Report.Status           82505 non-null  object 
+ 30  Publication.Date        75118 non-null  object 
+
+Event.Id, Investigation.Type, Accident.Number, Event.Date, 
+Location, Country, Latitude, Longitude, Airport.Code,
+ Airport.Name, Injury.Severity, Aircraft.damage, 
+ Aircraft.Category, Registration.Number, 
+ Make, Model, Amateur.Built, Number.of.Engines, 
+ Engine.Type, FAR.Description, Schedule, 
+ Purpose.of.flight, Air.carrier, Total.Fatal.Injuries, 
+Total.Serious.Injuries, Total.Minor.Injuries, 
+Total.Uninjured, Weather.Condition, 
+Broad.phase.of.flight, Report.Status, Publication.Date
+
+
+Accident that happened in the last 10 years (filter )
